@@ -20,6 +20,7 @@ public class TeslaSales {
 		generateSalesReports(getDataFromFile("modelS.csv"), mSYears, "Model S");
 		generateSalesReports(getDataFromFile("modelX.csv"), mXYears, "Model X");
 	}
+
 	
 	private static Map<YearMonth, Integer> getDataFromFile(String fileName) throws IOException {
 		// Read data file and put it into a map
