@@ -21,7 +21,6 @@ public class TeslaSales {
 		generateSalesReports(getDataFromFile("modelX.csv"), mXYears, "Model X");
 	}
 
-	
 	private static Map<YearMonth, Integer> getDataFromFile(String fileName) throws IOException {
 		// Read data file and put it into a map
 		Map<YearMonth, Integer> salesReport = Files.lines(Paths.get(fileName)).map(c -> c.split(","))
