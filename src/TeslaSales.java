@@ -39,6 +39,7 @@ public class TeslaSales {
 			printAnnualSales(salesReport, i);
 		}
 
+		
 		System.out.println();
 
 		// Calculate the BEST month for each model
