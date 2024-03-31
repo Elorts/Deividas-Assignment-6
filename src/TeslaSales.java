@@ -60,4 +60,5 @@ public class TeslaSales {
 				.map(y -> y.getValue()).reduce(0, (a, b) -> a + b);
 		System.out.println(year + "->" + annualSales);
 	}
+
 }
